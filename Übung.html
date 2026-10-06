@@ -1,0 +1,61 @@
+<!-- Adrian Jurci
+    3CAIF
+    06.10.2026
+
+-->
+
+<!DOCTYPE html>
+<html lang="de">
+<body>
+
+<h1>Mein Formular</h1>
+
+<form action="mailto:adrian12jurci@gmail.com?subject=Formular"
+      method="post"
+      enctype="text/plain">
+
+  Name: <input type="text" name="Name" required><br><br>
+
+  E-Mail: <input type="email" name="E-Mail" required><br><br>
+
+  Telefonnummer:
+  <input type="tel" name="Telefon"
+         title="Bitte eine gültige Telefonnummer eingeben"><br><br>
+
+  Geschlecht:
+  <input type="radio" name="Geschlecht" value="Frau"> Frau
+  <input type="radio" name="Geschlecht" value="Herr"> Herr
+  <br><br>
+
+  <input type="checkbox" name="Newsletter" value="Ja">
+  Newsletter abonnieren
+  <br><br>
+
+  Lieblingsfarbe:
+  <select name="Gruen">
+    <option>Rot</option>
+    <option>Blau</option>
+    <option>Grün</option>
+  </select>
+  <br><br>
+
+  Mehrfachauswahl:
+  <select name="Hobbys" multiple>
+    <option>Bibliothek</option>
+    <option>Basketball</option>
+    <option>Zocken</option>
+  </select>
+  <br><br>
+
+  Geburtsdatum: <input type="date" name="Geburtsdatum"><br><br>
+
+  Nachricht:<br>
+  <textarea name="Nachricht"></textarea>
+  <br><br>
+
+  <button type="submit">Absenden</button>
+
+</form>
+
+</body>
+</html>
